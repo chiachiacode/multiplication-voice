@@ -9,7 +9,7 @@
 </main><script>
 'use strict';
 // 請改為 GAS 網頁應用程式 /exec 網址；留空時仍可離線練習與 CSV 匯出。
-const GAS_WEB_APP_URL = '';
+const GAS_WEB_APP_URL = 'https://script.google.com/a/macros/kcis.hc.edu.tw/s/AKfycbyKpxbXOkEyLfwaKwyhZOM6aF0s28U2-NSiSA0_fHVAhJZUKbtccHZq1Zc8O-_RyTO1/exec';
 const $=id=>document.getElementById(id);
 const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
 let rec=null, wanted=false, restarting=false, values=Array(27).fill(null), pos=0, lastAccepted='', lastAcceptedAt=0;
